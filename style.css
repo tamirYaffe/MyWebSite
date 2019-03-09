@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 #menu
 {
 	background-color: crimson;
@@ -50,6 +53,10 @@ body{
 	text-align: center;
 	-moz-border-radius: 20px;
 	border-radius: 25px;
+}
+
+#spa,#about{
+	padding-left: 25px;
 }
 
 #form{

@@ -5,21 +5,17 @@
     <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
 </head>
 <body>
-<div id="menu">
-    <li>
-        <img src="images/spider_web.png" height="35" width="100"/>
-    </li>
-    <li><a href="#about">About Me</a></li>
-    <li><a href="#photos">My Photos</a></li>
-    <li><a href="#playlist">My Playlist</a></li>
-    <li><a href="#like">Like</a></li>
-    <li><a href="#qrcoder">QR code</a></li>
-    <li><a href="#spa">Q&A</a></li>
-    <li><a href="#contact">Contact Me</a></li>
-    <li>
-        <img src="images/spider_swing.png" height="225" width="75"/>
-    </li>
+
+<div class="topnav">
+    <a class="active" href="#about">About Me</a>
+    <a href="#photos">My Photos</a>
+    <a href="#playlist">My Playlist</a>
+    <a href="#like">Like</a>
+    <a href="#qrcoder">QR code</a>
+    <a href="#spa">Q&A</a>
+    <a href="#contact">Contact Me</a>
 </div>
+
 <div id="video_div">
     <h1 id="video_span">Spider-Man</h1>
     <video id="video" height="800" autoplay loop muted playsinline src="images/Garden%20-%2020871.mp4"></video>
@@ -106,7 +102,7 @@
                 <h3>different kinds</h3>
             </a>
             <a>
-                <img src="images/miles_morales.jpg" alt=""/>
+                <img height="500" src="images/miles_morales.jpg" alt=""/>
                 <h3>miles morales</h3>
             </a>
             <a>
@@ -149,7 +145,7 @@
     </li>
     <li>
         <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ftamiryaffe.github.io%2FMyWebSite%2F&width=100&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId"
-                width="100" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                width="150" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                 allowTransparency="true" allow="encrypted-media"></iframe>
     </li>
     <li>
@@ -172,7 +168,7 @@
     <br/>
     <h1 class="bar">scan my code</h1>
     <br/>
-    <img src="images/qrfree.kaywa.com.png" height="300" width="300" style="margin-left: 40%" />
+    <img src="images/qrfree.kaywa.com.png" height="300" width="300" style="margin-left: 40%"/>
     <br/>
     <br/>
 </section>
@@ -181,40 +177,64 @@
 <br/>
 <br/>
 <section id="spa" class="section">
-    Web 1.0
-    <br/>
-    <br/>
-    The first iteration of the web represents the web 1.0, which, according to Berners-Lee, is the “read-only web.” In other words, the early web allowed us to search for information and read it. There was very little in the way of user interaction or content generation.
-    <br/>
-    The first iteration of the web represents the web 1.0, which, according to Berners-Lee, is the “read-only web.”
-    <br/>
-    This was what most website owners wanted. They needed a website to make their information available to anyone at any time. I call this “brick-and-mortar thinking applied to the web.” The web as a whole hasn’t moved much beyond this stage.
-    <br/>
-    Shopping cart applications, which most ecommerce sites use in some form, fall under the category of web 1.0. The overall goal is to present products to potential customers — much as a catalog or a brochure does — to anyone in the world. The web provides the exposure. It removes the geographical restrictions associated with brick-and-mortar businesses.
-    <br/>
-    <br/>
-    Web 2.0
-    <br/>
-    <br/>
-    We are now seeing the infancy of web 2.0, or the “read-write” web as Berners-Lee described it. It’s the ability to contribute content and interact with other web users. It has dramatically changed the landscape of the web in a short time. It has much potential. As examples, look at YouTube and MySpace, which rely on user submissions. Web 2.0 is a welcome response to web users, who want to participate in the information.
-    <br/>
-    There are many definitions of a “web 2.0 application.” For example, there’s the perception that just because a website is built using a certain technology (such as Ruby on Rails) or because it employs Ajax in its interface, it represents web 2.0. But that is not necessarily the case. Web 2.0, for lay people, simply requires that users can interact or contribute content.
-    <br/>
-    <br/>
-    Web 3.0
-    <br/>
-    <br/>
-    This leads us web 3.0 (extending the vague nomenclature). By extrapolating Tim Berners-Lee’s explanations, web 3.0 is “read-write-execute.” This is difficult to envision in its abstract form. To illustrate, consider semantic markup and web services.
-    <br/>
-    Semantic markup refers to the communication gap between humans and computerized applications. One of the biggest challenges of presenting information on the web is that applications cannot provide context to data, and, therefore, can’t understand what is relevant. Through the use of some sort of semantic markup (or data interchange formats), data could be put in a form not only accessible to humans via natural language, but able to be understood and interpreted by software applications as well.
-    <br/>
-    While it is still evolving, this notion — formatting data to be understood by software agents — leads to the “execute” portion of the web 3.0 definition.
-    <br/>
-    A web service is a software that supports computer-to-computer interaction over the internet. Web services are not new and usually take the form of an application programming interface. The popular photography-sharing website Flickr provides a web service whereby developers can programmatically interface to search for images.
-    <br/>
-    There are thousands of web services. Combining semantic markup and web services can produce a web 3.0 experience — applications that can speak to each other directly and interpret information for humans.
-    <br/>
-    <br/>
+    <p>
+        Web 1.0
+        <br/>
+        <br/>
+        The first iteration of the web represents the web 1.0, which, according to Berners-Lee, is the “read-only web.”
+        In other words, the early web allowed us to search for information and read it. There was very little in the way
+        of user interaction or content generation.
+        <br/>
+        The first iteration of the web represents the web 1.0, which, according to Berners-Lee, is the “read-only web.”
+        <br/>
+        This was what most website owners wanted. They needed a website to make their information available to anyone at
+        any time. I call this “brick-and-mortar thinking applied to the web.” The web as a whole hasn’t moved much
+        beyond this stage.
+        <br/>
+        Shopping cart applications, which most ecommerce sites use in some form, fall under the category of web 1.0. The
+        overall goal is to present products to potential customers — much as a catalog or a brochure does — to anyone in
+        the world. The web provides the exposure. It removes the geographical restrictions associated with
+        brick-and-mortar businesses.
+        <br/>
+        <br/>
+        Web 2.0
+        <br/>
+        <br/>
+        We are now seeing the infancy of web 2.0, or the “read-write” web as Berners-Lee described it. It’s the ability
+        to contribute content and interact with other web users. It has dramatically changed the landscape of the web in
+        a short time. It has much potential. As examples, look at YouTube and MySpace, which rely on user submissions.
+        Web 2.0 is a welcome response to web users, who want to participate in the information.
+        <br/>
+        There are many definitions of a “web 2.0 application.” For example, there’s the perception that just because a
+        website is built using a certain technology (such as Ruby on Rails) or because it employs Ajax in its interface,
+        it represents web 2.0. But that is not necessarily the case. Web 2.0, for lay people, simply requires that users
+        can interact or contribute content.
+        <br/>
+        <br/>
+        Web 3.0
+        <br/>
+        <br/>
+        This leads us web 3.0 (extending the vague nomenclature). By extrapolating Tim Berners-Lee’s explanations, web
+        3.0 is “read-write-execute.” This is difficult to envision in its abstract form. To illustrate, consider
+        semantic markup and web services.
+        <br/>
+        Semantic markup refers to the communication gap between humans and computerized applications. One of the biggest
+        challenges of presenting information on the web is that applications cannot provide context to data, and,
+        therefore, can’t understand what is relevant. Through the use of some sort of semantic markup (or data
+        interchange formats), data could be put in a form not only accessible to humans via natural language, but able
+        to be understood and interpreted by software applications as well.
+        <br/>
+        While it is still evolving, this notion — formatting data to be understood by software agents — leads to the
+        “execute” portion of the web 3.0 definition.
+        <br/>
+        A web service is a software that supports computer-to-computer interaction over the internet. Web services are
+        not new and usually take the form of an application programming interface. The popular photography-sharing
+        website Flickr provides a web service whereby developers can programmatically interface to search for images.
+        <br/>
+        There are thousands of web services. Combining semantic markup and web services can produce a web 3.0 experience
+        — applications that can speak to each other directly and interpret information for humans.
+        <br/>
+        <br/>
     <h3>main diffrences between web versions:</h3>
     1.page state-wed 1 static
     <br/>
@@ -243,9 +263,13 @@
     <br/>
     in web 1 we will get sites with basic information static site perhaps a site who someone wrote abut the person.
     <br/>
-    in web 2 we will get sites with information about multiple meanings, blog or websites about the topic from multiple users.
+    in web 2 we will get sites with information about multiple meanings, blog or websites about the topic from multiple
+    users.
     <br/>
-    in web 3 we will get sites with context about the topic regards my history in the web, if i am a student in ben gurion university i probably get the university site.
+    in web 3 we will get sites with context about the topic regards my history in the web, if i am a student in ben
+    gurion university i probably get the university site.
+    </p>
+
     <br/>
     <br/>
 </section>
